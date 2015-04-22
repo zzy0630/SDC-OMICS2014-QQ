@@ -21,7 +21,7 @@ integrate_words_by_day.pl
 time_serial.pl
 time_freq.pl
 chat.pl
-###You can then run the shell script to run all the perl script at once use the following command, before this you have to change the name of your file;
+###You can then run the shell script to run all the perl script at once use the following command if you are using Linux system, before this you have to change the name of your file;
 sh analysis.sh
 ###Second, open plots.R file, you have to change the front line by typing in the directory where you store your data and newly generated files;
 ###You can either run this plots.R file at once to see what happen or just draw one figure at a time by copying and pasting respective command, and of course, you can change the code based on your own requirement;
