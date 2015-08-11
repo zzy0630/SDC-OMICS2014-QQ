@@ -1,14 +1,14 @@
 #SDC-OMICS2014-QQ
 Depository of scripts used to analyze QQ log.
 Analysis of QQ group chat log
-
+# Note: scripts are not all extentable, some of them need to be modified.
 This pepline can help you find out the questions below
-##Q1: General information: including message count distribution, word count distribution, figure count distribution and emoji count distribution;
-##Q2: Who tend to be outliers among above distributions? Who is the most interesting one? Who is the most boring person?
-##Q3: The correlation between conversation starter and terminator;
-##Q4: The chat pattern and its correlation with daily events;
-##Q5: The balance of relationships among people, that is are people gain as much as they give?
-##Q6: To be continued...
+### Q1: General information: including message count distribution, word count distribution, figure count distribution and emoji count distribution;
+### Q2: Who tend to be outliers among above distributions? Who is the most interesting one? Who is the most boring person?
+### Q3: The correlation between conversation starter and terminator;
+### Q4: The chat pattern and its correlation with daily events;
+### Q5: The balance of relationships among people, that is are people gain as much as they give?
+### Q6: To be continued...
 
 You have to export the chat log before you do this analysis, also you should have Perl and R in your computer;
 Once you got all you need, let's just do it step by step;  
