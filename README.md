@@ -11,21 +11,21 @@ This pepline can help you find out the questions below
 ##Q6: To be continued...
 
 You have to export the chat log before you do this analysis, also you should have Perl and R in your computer;
-Once you got all you need, let's just do it step by step;
-Note that you have to put these scripts in the same directory as your qq log data;
-First, run following script with the exact order, this will generate several new files from your origin file;
-Scripts
-generate_data.pl
-transform_data.pl
-integrate_words_by_day.pl
-time_serial.pl
-time_freq.pl
-chat.pl
-You can then run the shell script to run all the perl script at once use the following command if you are using Linux system, before this you have to change the name of your file;
-sh analysis.sh
-Second, open plots.R file, you have to change the front line by typing in the directory where you store your data and newly generated files;
-You can either run this plots.R file at once to see what happen or just draw one figure at a time by copying and pasting respective command, and of course, you can change the code based on your own requirement;
-Third, open tests.R file, do the same thing as you did to plots.R to change the directory;
-This file can help you do four kinds of statistical tests, you can do it yourself if you are interested;
-
+Once you got all you need, let's just do it step by step;  
+Note that you have to put these scripts in the same directory as your qq log data;  
+First, run following script with the exact order, this will generate several new files from your origin file;  
+Scripts:  
+generate_data.pl  
+transform_data.pl  
+integrate_words_by_day.pl  
+time_serial.pl  
+time_freq.pl  
+chat.pl  
+You can then run the shell script to run all the perl script at once use the following command if you are using Linux system, before this you have to change the name of your file;  
+sh analysis.sh  
+Second, open plots.R file, you have to change the front line by typing in the directory where you store your data and newly generated files;  
+You can either run this plots.R file at once to see what happen or just draw one figure at a time by copying and pasting respective command, and of course, you can change the code based on your own requirement;  
+Third, open tests.R file, do the same thing as you did to plots.R to change the directory;  
+This file can help you do four kinds of statistical tests, you can do it yourself if you are interested;  
+  
 Have fun
